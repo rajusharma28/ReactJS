@@ -1,0 +1,22 @@
+.first {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.first h1 {
+  color: #000;
+}
+
+.first button {
+  cursor: pointer;
+  background-color: #add8e6;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 8px 15px;
+}
+
+.first button:hover {
+  background-color: #87ceeb;
+}
+/*# sourceMappingURL=countDown.e4aa4ca8.css.map */

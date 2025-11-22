@@ -1,0 +1,35 @@
+body {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#root {
+  color: #f0f8ff;
+  text-align: center;
+  background-color: #515422;
+  width: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+button {
+  width: 70px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.counter {
+  text-align: center;
+  width: 300px;
+  height: 200px;
+}
+
+button {
+  background-color: #2bff00;
+}
+/*# sourceMappingURL=countDown copy.e4aa4ca8.css.map */

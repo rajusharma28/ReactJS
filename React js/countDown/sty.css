@@ -1,0 +1,21 @@
+.first {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.first h1 {
+  color: black;
+}
+
+.first button {
+  margin: 5px;
+  padding: 8px 15px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.first button:hover {
+  background-color: skyblue;
+}

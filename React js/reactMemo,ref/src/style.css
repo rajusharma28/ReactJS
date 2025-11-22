@@ -1,0 +1,49 @@
+/* Center everything on the screen */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for the React App */
+#root {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+}
+
+/* The Timer Text */
+h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-variant-numeric: tabular-nums; /* Keeps numbers from jumping */
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue */
+  color: white;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker Blue on hover */
+}
+
+button:active {
+  transform: scale(0.98); /* Slight click effect */
+}

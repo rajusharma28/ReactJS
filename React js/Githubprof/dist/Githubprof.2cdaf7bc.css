@@ -1,0 +1,143 @@
+.but {
+  color: #333;
+  background-color: #f0f2f5;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+}
+
+.input-group {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.inpu {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  flex-grow: 1;
+  min-width: 200px;
+  padding: 12px 18px;
+  font-size: 1em;
+  transition: border-color .2s, box-shadow .2s;
+}
+
+.inpu:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px #007bff40;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 25px;
+  font-size: 1em;
+  font-weight: 600;
+  transition: background-color .3s, transform .1s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+.container {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-content: center;
+  gap: 25px;
+  width: 100%;
+  max-width: 1300px;
+  padding: 20px 0;
+  display: grid;
+}
+
+.cards {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+  display: flex;
+  box-shadow: 0 4px 8px #00000014;
+}
+
+.cards:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px #00000026;
+}
+
+.cards img {
+  object-fit: cover;
+  border: 4px solid #007bff;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+.cards h2 {
+  color: #222;
+  margin: 10px 0;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.cards a {
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color .3s, color .3s;
+}
+
+.cards a:hover {
+  color: #fff;
+  background-color: #007bff;
+  text-decoration: none;
+}
+
+.no-profiles-message {
+  color: #555;
+  text-align: center;
+  grid-column: 1 / -1;
+  margin-top: 30px;
+  font-size: 1.1em;
+}
+
+@media (width <= 768px) {
+  .input-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .inpu, button {
+    width: 100%;
+    max-width: none;
+  }
+
+  .container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+/*# sourceMappingURL=Githubprof.2cdaf7bc.css.map */
